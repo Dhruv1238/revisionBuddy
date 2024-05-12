@@ -21,7 +21,7 @@ const RevisionBuddy = () => {
         formData.append('topic', topic);
         formData.append('api_key', apiKey);
 
-        const response = await axios.post('http://127.0.0.1:5000/api/generateContent', formData, {
+        const response = await axios.post('https://56pf96tj-5000.inc1.devtunnels.ms/api/generateContent', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
